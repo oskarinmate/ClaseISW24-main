@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "MoviesGO",
+    "slug": "MoviesGo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/LogoAppMoviesGo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/MoviesGO.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/MoviesGO.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.testisw23"
+    },
+    "web": {
+      "favicon": "./assets/MoviesGO.png"
+    },
+    "plgins": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
